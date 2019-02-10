@@ -1,0 +1,75 @@
+$peachaccent: #F5CBB8;
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    text-align: center;
+
+    h1 {
+        font-size: 48pt;
+        font-family: "Playfair Display", serif;
+        margin-top: 12pt;
+        margin-bottom: 0;
+    }
+
+    nav {
+        ul {
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: $peachaccent;
+
+            li {
+                padding: 1em;
+
+                a{
+                    color: white;
+                    text-transform: uppercase;
+                    letter-spacing: 2pt;
+                }
+                a:hover{
+                    color: black;
+                }
+            }
+        }
+
+
+    }
+}
+
+main {
+    ul {
+        //Grid
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        //add rows here later
+        padding: 1em;
+
+        li {
+            padding: 2px;
+            overflow: hidden;
+            width: 300px;
+            height: 300px;
+            border-style: dotted;
+            border-width: 5px;
+            border-color: $peachaccent;
+            img {
+                width: auto;
+                height: 300px;
+            }
+        }
+
+    }
+}

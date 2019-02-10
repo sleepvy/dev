@@ -1,0 +1,61 @@
+/* line 3, /Users/vyle/Dropbox/dev/scss/portal.scss */
+ul {
+  list-style: none; }
+
+/* line 7, /Users/vyle/Dropbox/dev/scss/portal.scss */
+a {
+  text-decoration: none; }
+
+/* line 11, /Users/vyle/Dropbox/dev/scss/portal.scss */
+body {
+  font-family: "Raleway", sans-serif; }
+
+/* line 15, /Users/vyle/Dropbox/dev/scss/portal.scss */
+header {
+  text-align: center; }
+  /* line 18, /Users/vyle/Dropbox/dev/scss/portal.scss */
+  header h1 {
+    font-size: 48pt;
+    font-family: "Playfair Display", serif;
+    margin-top: 12pt;
+    margin-bottom: 0; }
+  /* line 26, /Users/vyle/Dropbox/dev/scss/portal.scss */
+  header nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F5CBB8; }
+    /* line 34, /Users/vyle/Dropbox/dev/scss/portal.scss */
+    header nav ul li {
+      padding: 1em; }
+      /* line 37, /Users/vyle/Dropbox/dev/scss/portal.scss */
+      header nav ul li a {
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2pt; }
+      /* line 42, /Users/vyle/Dropbox/dev/scss/portal.scss */
+      header nav ul li a:hover {
+        color: black; }
+
+/* line 53, /Users/vyle/Dropbox/dev/scss/portal.scss */
+main ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1em; }
+  /* line 60, /Users/vyle/Dropbox/dev/scss/portal.scss */
+  main ul li {
+    padding: 2px;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #F5CBB8; }
+    /* line 68, /Users/vyle/Dropbox/dev/scss/portal.scss */
+    main ul li img {
+      width: auto;
+      height: 300px; }
+
+/*# sourceMappingURL=portal.css.map */
