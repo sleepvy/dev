@@ -2,7 +2,8 @@ ul {
   list-style: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
 body {
   font-family: "Raleway", sans-serif; }
@@ -36,14 +37,13 @@ main ul {
   padding: 1em; }
   main ul li {
     padding: 2px;
-    overflow: hidden;
-    width: 300px;
-    height: 300px;
     border-style: dotted;
     border-width: 5px;
-    border-color: #F5CBB8; }
+    border-color: #F5CBB8;
+    width: 300px;
+    text-align: center; }
     main ul li img {
-      width: auto;
+      width: 300px;
       height: 300px; }
 
 /*# sourceMappingURL=portal.css.map */
