@@ -44,8 +44,10 @@ header {
 main ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
   padding: 1em; }
-  /* line 61, /Users/vyle/Dropbox/dev/scss/portal.scss */
+  /* line 62, /Users/vyle/Dropbox/dev/scss/portal.scss */
   main ul li {
     padding: 2px;
     border-style: dotted;
@@ -53,7 +55,7 @@ main ul {
     border-color: #F5CBB8;
     width: 300px;
     text-align: center; }
-    /* line 69, /Users/vyle/Dropbox/dev/scss/portal.scss */
+    /* line 70, /Users/vyle/Dropbox/dev/scss/portal.scss */
     main ul li img {
       width: 300px;
       height: 300px; }

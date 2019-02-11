@@ -34,6 +34,8 @@ header {
 main ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
   padding: 1em; }
   main ul li {
     padding: 2px;
