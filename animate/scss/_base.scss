@@ -1,0 +1,27 @@
+$icon-layout:horizontal;
+@import "icon/*.png";
+@include all-icon-sprites;
+
+.face {
+    width:360px;
+    height:468px;
+    background: url("../img/icon-s4ace70858e.png") left center;
+    animation: play 2s steps(14) infinite;
+}
+
+@keyframes play {
+    100% {background-position: -5040px;}
+}
+
+div {
+  display:block;
+  margin:0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 36pt;
+}
