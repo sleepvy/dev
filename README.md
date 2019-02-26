@@ -1,3 +1,2 @@
-# Dev
-
-Repository for everything done in ATLS 4519: Web Creative Dev Tools.
+## boilerplate
+HTML boilerplate using SASS, Compass, CSS Grid

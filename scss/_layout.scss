@@ -1,0 +1,18 @@
+header {
+    nav {
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+}
+
+main {
+    ul {
+        //Grid
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+}
